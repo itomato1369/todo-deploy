@@ -22,7 +22,7 @@ if (process.argv[2] == "prod") {
   apiPath = "/api";
 }
 app.get(`${apiPath}/board`, (req, res) => {
-  res.send({ title: "노드 api 서버 update!!!!" });
+  res.send({ title: "Github Actions Deploy Tset" });
 });
 
 const path = require("path");
